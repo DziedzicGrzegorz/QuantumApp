@@ -1,17 +1,18 @@
+# Git
+.git
+.gitignore
+
 # Build results
-bin/
-obj/
-/packages/
-/out/
-/publish/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+publish/
 
 # User-specific files
 *.user
 *.userosscache
 *.suo
 *.userprefs
-riderModule.iml
-/_ReSharper.Caches/
 
 # Visual Studio files
 .vs/
@@ -22,9 +23,7 @@ riderModule.iml
 *.*~
 *.tmp
 
-# Docker
-.docker/
-
-# OS specific
-.DS_Store
-Thumbs.db
+# Keep only necessary files
+!QuantumApp/
+!QuantumApp.sln
+!Dockerfile
